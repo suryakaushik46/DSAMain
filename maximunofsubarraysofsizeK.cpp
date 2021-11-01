@@ -25,11 +25,11 @@ int main(){
         }
     }
     for(int i=1;i<n-k+1;i++){
-        cout<<dq.front()<<" gdca "<<endl;
-        for(auto it=dq.begin();it!=dq.end();it++){
-            cout<<*it<<" ";
-        }
-        cout<<endl;
+        cout<<dq.front()<<" ";
+//         for(auto it=dq.begin();it!=dq.end();it++){
+//             cout<<*it<<" ";
+//         }
+//         cout<<endl;
         if(arr[i-1]==dq.front()){
             dq.pop_front();
         }
